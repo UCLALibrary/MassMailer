@@ -34,7 +34,7 @@ public class MassMailer
   public static void main(String[] args)
   {
     loadProperties(args[0]);
-    openFile(args[2]);
+    openFile(args[1]);
     sendEmails();
     closeFile();
   }
